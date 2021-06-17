@@ -1,0 +1,90 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1623393835885-560a7c576aa2?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main p {
+    margin: 20px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(248, 7, 7);
+}
+
+.main h1 {
+    font-size: 32px;
+    color: #222;
+    font-weight: 700;
+    margin: 60px 0px 140px 100px;
+}
+
+.main form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px 0px  300px 0px;
+}
+
+.main form select {
+    width: 160px;
+    height: 35px;
+  
+    outline: none;
+    background: #fff;
+    border: none;
+    margin: 0px 15px;
+  
+    font-size: 18px;
+    color: #222;
+  
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px #333;
+  
+    padding: 0px 10px;
+    cursor: pointer;
+  
+    transition: 0.5s;
+  }
+  
+  .main form select:hover {
+    box-shadow: 3px 3px 3px #777;
+    color: #555;
+  }
+  
+  .main form input[type="submit"] {
+    width: 100px;
+    height: 35px;
+  
+    outline: none;
+    background: none;
+    border: none;
+  
+    border-radius: 7px;
+    background-color: #fff;
+  
+    box-shadow: 3px 3px 3px #999;
+  
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px #333;
+  }
+  
+  .main form input[type="submit"]:hover {
+    color: #777;
+  
+  }
+

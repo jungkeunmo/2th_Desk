@@ -1,0 +1,25 @@
+extends ../globalBase.pug
+
+block content 
+    section.main
+        h1 책상
+
+        p #{errorMsg}
+        
+        form(action="/result" method="GET")
+            select(name="c")
+                option(value=false) --선택--
+                option(value="빨간") 빨간
+                option(value="주황") 주황
+                option(value="노란") 노란
+            select(name="w")
+                option(value=false) --선택--
+                option(value="10") 10세로
+                option(value="20") 20세로
+                option(value="30") 30세로
+            select(name="h")
+                option(value=false) --선택--
+                option(value="10") 10가로
+                option(value="20") 20가로
+                option(value="30") 30가로
+            input(type="submit" value="조회") 
